@@ -14,27 +14,28 @@
 .modal .modal-content {
 	background-color: #fefefe;
 	margin: 25% auto;
-	padding:1em;
-	border:1px solid #888;
-	width:80%;
+	padding: 1em;
+	border: 1px solid #888;
+	width: 80%;
 }
 
 .modal .modal-header {
-	position:relative;
+	position: relative;
 }
+
 .modal .close-modal {
-	position:absolute;
-	color:#aaa;
-    font-size: 28px;
-	width:1.5em;
-	height:1.5em;
-	z-index:2004;
-	right:0;
-	top:0;
-    font-weight: bold;
-    display: block;
-    cursor: pointer;
-    text-align: center;
+	position: absolute;
+	color: #aaa;
+	font-size: 28px;
+	width: 1.5em;
+	height: 1.5em;
+	z-index: 2004;
+	right: 0;
+	top: 0;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+	text-align: center;
 }
 
 .modal .close-modal:hover,
@@ -55,7 +56,7 @@
 	padding: 0;
 	border: 1px solid #888;
 	width: 80%;
-	max-width:480px;
+	max-width: 480px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	-webkit-animation-name: animatetop;
 	-webkit-animation-duration: 0.4s;
@@ -68,6 +69,7 @@
 		top: -300px;
 		opacity: 0
 	}
+
 	to {
 		top: 0;
 		opacity: 1
@@ -79,6 +81,7 @@
 		top: -300px;
 		opacity: 0
 	}
+
 	to {
 		top: 0;
 		opacity: 1
